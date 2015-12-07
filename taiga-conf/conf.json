@@ -1,5 +1,5 @@
 {
-    "api": "https://agile.loansolutions.ph/api/v1/",
+    "api": "http://TAIGA_HOSTNAME/api/v1/",
     "eventsUrl": null,
     "debug": true,
     "debugInfo": false,
@@ -10,5 +10,5 @@
     "termsOfServiceUrl": null,
     "maxUploadFileSize": null,
     "contribPlugins": ["/js/slack.js"],
-    "loginFormType": "ldap"
+    // "loginFormType": "ldap"
 }
