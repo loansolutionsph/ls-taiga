@@ -2,9 +2,7 @@ FROM benhutchins/taiga
 MAINTAINER Benjamin Hutchins <ben@hutchins.co>
 
 # Install additional extensions
-RUN pip install --no-cache-dir \
-      taiga-contrib-slack \
-      taiga-contrib-ldap-auth
+RUN pip install --no-cache-dir taiga-contrib-slack
 
 RUN wget "https://raw.githubusercontent.com/taigaio/taiga-contrib-slack/master/front/dist/slack.js"
 
