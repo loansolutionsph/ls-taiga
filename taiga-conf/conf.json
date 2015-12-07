@@ -9,6 +9,5 @@
     "privacyPolicyUrl": null,
     "termsOfServiceUrl": null,
     "maxUploadFileSize": null,
-    "contribPlugins": ["/js/slack.js"],
-    // "loginFormType": "ldap"
+    "contribPlugins": ["/js/slack.js"]
 }
