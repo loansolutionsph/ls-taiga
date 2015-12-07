@@ -2,9 +2,9 @@ FROM benhutchins/taiga
 MAINTAINER Benjamin Hutchins <ben@hutchins.co>
 
 # Install additional extensions
-RUN pip install --no-cache-dir taiga-contrib-slack
+RUN pip install taiga-contrib-slack
 
-RUN wget "https://raw.githubusercontent.com/taigaio/taiga-contrib-slack/master/front/dist/slack.js"
+RUN wget "https://raw.githubusercontent.com/taigaio/taiga-contrib-slack/$(pip show taiga-contrib-slack | awk '/^Version: /{print $2}')/front/dist/slack.js"
 
 COPY slack.js /usr/src/taiga-front-dist/dist/js/slack.js
 
