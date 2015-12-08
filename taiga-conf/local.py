@@ -25,4 +25,4 @@ EMAIL_HOST = 'email-smtp.us-west-2.amazonaws.com'
 EMAIL_PORT = 25
 EMAIL_HOST_USER = 'AKIAICN6QFIQC5KVOVYA'
 EMAIL_HOST_PASSWORD = 'AtOqwrp5ichBpqoKsW2vF3JS4ha8gDrUD1bjY0dxXgld'
-DEFAULT_FROM_EMAIL = 'sending@loansolutions.ph'
+DEFAULT_FROM_EMAIL = 'scrummaster@loansolutions.ph'
